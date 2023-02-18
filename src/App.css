@@ -1,0 +1,23 @@
+.container { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  display: flex;
+  gap: 100px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.app div:last-child {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
